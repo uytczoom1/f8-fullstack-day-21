@@ -1,5 +1,11 @@
 	Task 1:	
 
+    const classA = ["An", "Binh", "Chi"];
+    const classB = classA;
+    classB[0] = "An Updated";
+    console.log(classA);
+// Output: ["An Updated", "Binh", "Chi"]
+
     That is because classA and classB share the same memory address (both have the value 0x01). When the first element of classB is changed to "An Updated", classA is also updated accordingly.
     
 
