@@ -21,7 +21,7 @@
 
     const age = 9;
     const mathScore = 10;
-    let isVIP = false;
+    const isVIP = false;
     let canEnter = (age >= 10 && mathScore > 7) || isVIP;
     console.log(canEnter);
 
@@ -29,7 +29,7 @@
 
     const age = 9;
     const mathScore = 10;
-    let isVIP = true;
+    const isVIP = true;
     let canEnter = (age >= 10 && mathScore > 7) || isVIP;
     console.log(canEnter);
 
